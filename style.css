@@ -1,0 +1,29 @@
+
+/* Commentaire du code ignoré avec slash etoile */
+
+
+
+/* Sélecteur d'élément */
+h1 {
+    color: red;  /* mettre le niveau de titre 1 en rouge*/
+    font-size: 60px;
+    text-align: center;
+  
+}
+
+/* Sélecteur de classe */
+.important {
+    font-weight: bold;  /*met en gras*/
+}
+
+/* Sélecteur d'ID */
+#citation {
+    padding: 20px;
+    color: grey;
+}
+
+
+p {
+    background-color: #FBF8F6;
+
+}
