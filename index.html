@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma Première Page Web</title>
+    <title>Présentation</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,7 +15,7 @@
         header {
             background-color: #4CAF50;
             color: white;
-            padding: 15px 20px;
+            padding: 20px;
             text-align: center;
         }
         nav {
@@ -27,7 +27,7 @@
         nav a {
             color: white;
             text-decoration: none;
-            margin: 0 10px;
+            margin: 0 15px;
         }
         nav a:hover {
             text-decoration: underline;
@@ -35,42 +35,69 @@
         main {
             padding: 20px;
         }
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
             padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            position: relative;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Bienvenue sur Ma Page Web</h1>
+        <h1>Bienvenue sur ma page de présentation</h1>
+        <p>Découvrez qui je suis, ce que je fais et mes projets !</p>
     </header>
     <nav>
-        <a href="#section1">Section 1</a>
-        <a href="#section2">Section 2</a>
-        <a href="#section3">Section 3</a>
+        <a href="#about">À propos de moi</a>
+        <a href="#skills">Mes compétences</a>
+        <a href="#projects">Mes projets</a>
+        <a href="#contact">Me contacter</a>
     </nav>
     <main>
-        <section id="section1">
-            <h2>Section 1</h2>
-            <p>Ceci est le contenu de la première section. Vous pouvez ajouter du texte, des images, ou des liens ici.</p>
+        <section id="about">
+            <h2>À propos de moi</h2>
+            <p>Je m'appelle [Votre Nom]. Je suis [votre métier ou statut, par ex. "développeur web" ou "étudiant"]. 
+            Passionné(e) par [vos passions, ex. "la technologie, le design, et la création de contenu"], je m'efforce de [votre objectif ou vision, ex. "créer des solutions qui facilitent la vie des gens"].</p>
         </section>
-        <section id="section2">
-            <h2>Section 2</h2>
-            <p>Voici une autre section pour ajouter des informations supplémentaires.</p>
+        <section id="skills">
+            <h2>Mes compétences</h2>
+            <ul>
+                <li>Développement web : HTML, CSS, JavaScript</li>
+                <li>Gestion de projet et méthodologies Agile</li>
+                <li>Création graphique : Photoshop, Illustrator</li>
+                <li>[Autres compétences spécifiques, ex. "analyse de données, rédaction, etc."]</li>
+            </ul>
         </section>
-        <section id="section3">
-            <h2>Section 3</h2>
-            <p>Vous pouvez personnaliser cette section comme bon vous semble.</p>
+        <section id="projects">
+            <h2>Mes projets</h2>
+            <p>Voici quelques projets auxquels j'ai participé :</p>
+            <ul>
+                <li><strong>Projet 1 :</strong> [Description du projet, par ex. "Un site de e-commerce créé pour une petite entreprise locale"]</li>
+                <li><strong>Projet 2 :</strong> [Description du projet, par ex. "Une application mobile pour gérer ses tâches quotidiennes"]</li>
+                <li><strong>Projet 3 :</strong> [Description du projet, par ex. "Un blog personnel où je partage mes idées sur le développement web"]</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Me contacter</h2>
+            <p>Vous pouvez me joindre via les moyens suivants :</p>
+            <ul>
+                <li>Email : <a href="mailto:votreadresse@example.com">votreadresse@example.com</a></li>
+                <li>LinkedIn : <a href="https://www.linkedin.com/in/votreprofil" target="_blank">Mon profil LinkedIn</a></li>
+                <li>GitHub : <a href="https://github.com/votreprofil" target="_blank">Mon GitHub</a></li>
+            </ul>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Ma Page Web - Tous droits réservés</p>
+        <p>&copy; 2024 [Votre Nom] - Tous droits réservés</p>
     </footer>
 </body>
 </html>
