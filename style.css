@@ -70,3 +70,16 @@ a {
 a:hover {
     text-decoration: underline;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.sport-image {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 10px;
+}
