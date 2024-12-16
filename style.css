@@ -17,8 +17,8 @@ header {
 }
 
 .header-image {
-    width: 60px;
-    max-height: 50px;
+    width: 150px;
+    max-height: 150px;
     object-fit: cover;
     margin-top: 10px;
 }
@@ -90,8 +90,8 @@ ul li {
 }
 
 .sport-image {
-    width: 100px;
-    height: 90px;
+    width: 125px;
+    height: 125px;
     border-radius: 10px;
     margin-right: 10px;
 }
