@@ -65,8 +65,8 @@ section:hover {
 
 /* === Images dans les sections === */
 img {
-    max-width: 1000px;
-    height: 1000px;
+    max-width: 500px;
+    height: 500px;
     display: block;
     margin: 10px auto;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -90,8 +90,8 @@ ul li {
 }
 
 .sport-image {
-    width: 1000px;
-    height: 600px;
+    width: 550px;
+    height: 450px;
     border-radius: 10px;
     margin-right: 10px;
 }
