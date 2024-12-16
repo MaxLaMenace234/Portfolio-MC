@@ -17,8 +17,8 @@ header {
 }
 
 .header-image {
-    width: 150px;
-    max-height: 150px;
+    width: 350px;
+    max-height: 350px;
     object-fit: cover;
     margin-top: 10px;
 }
@@ -65,8 +65,9 @@ section:hover {
 
 /* === Images dans les sections === */
 img {
-    max-width: 90px;
-    height: 90px;
+    text-align: left;
+    max-width: 250px;
+    height: 250px;
     display: block;
     margin: 10px auto;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -90,8 +91,8 @@ ul li {
 }
 
 .sport-image {
-    width: 125px;
-    height: 125px;
+    width: 400px;
+    height: 300px;
     border-radius: 10px;
     margin-right: 10px;
 }
